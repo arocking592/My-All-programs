@@ -1,0 +1,9 @@
+import math
+x=int(input())
+if(x>1):
+	a=math.sqrt(3)
+	b=a/4*x**2
+	c=round(b,2)
+	print(c)
+else:
+	print("Invalid")
