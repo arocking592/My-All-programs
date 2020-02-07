@@ -1,0 +1,6 @@
+def addition(g,k):
+    c=a+b
+    return round(c,1)
+a=float(input())
+b=float(input())
+print(addition(a,b))
