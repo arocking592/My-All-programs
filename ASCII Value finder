@@ -1,0 +1,5 @@
+def ASCII():
+    c=ord(a)
+    print(c)
+a=str(input())
+ASCII()
