@@ -1,0 +1,10 @@
+x=int(input())
+def circumfrence(x):
+    if (x>0):
+        c=2*22/7*x
+        #print('{:.2f}'.format(c))
+        print(round(c,2))
+    else:
+        print("Error")
+circumfrence(x)
+
