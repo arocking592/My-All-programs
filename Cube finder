@@ -1,0 +1,6 @@
+def cube(x):
+    return n ** 3
+
+
+n = int(input())
+print(cube(n))
