@@ -1,0 +1,7 @@
+l=[]
+def Exploder(a,b):
+    return [x*y for x in l]
+x=str(input())
+y=int(input())
+l.append(x)
+print(*Exploder(x,y))
